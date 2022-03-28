@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282FF5B327EAD293004B17B4 /* lol_e_game_support.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A027EAD28A004B17B4 /* lol_e_game_support.xcdatamodeld */; };
+		282FF5B427EAD293004B17B4 /* lol_e_game_support.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A027EAD28A004B17B4 /* lol_e_game_support.xcdatamodeld */; };
+		282FF5B527EAD293004B17B4 /* lol_e_game_supportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A227EAD28A004B17B4 /* lol_e_game_supportApp.swift */; };
+		282FF5B627EAD293004B17B4 /* lol_e_game_supportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A227EAD28A004B17B4 /* lol_e_game_supportApp.swift */; };
+		282FF5B727EAD293004B17B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A327EAD28A004B17B4 /* ContentView.swift */; };
+		282FF5B827EAD293004B17B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A327EAD28A004B17B4 /* ContentView.swift */; };
+		282FF5B927EAD293004B17B4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A427EAD28A004B17B4 /* Persistence.swift */; };
+		282FF5BA27EAD293004B17B4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5A427EAD28A004B17B4 /* Persistence.swift */; };
+		282FF5BB27EAD293004B17B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282FF5A527EAD292004B17B4 /* Assets.xcassets */; };
+		282FF5BC27EAD293004B17B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282FF5A527EAD292004B17B4 /* Assets.xcassets */; };
+		282FF5DE27EDC786004B17B4 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5DD27EDC786004B17B4 /* Combinations.swift */; };
+		282FF5DF27EDCB28004B17B4 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5DD27EDC786004B17B4 /* Combinations.swift */; };
+		282FF5E127F1717E004B17B4 /* TagsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E027F1717E004B17B4 /* TagsPage.swift */; };
+		282FF5E227F172DB004B17B4 /* TagsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E027F1717E004B17B4 /* TagsPage.swift */; };
+		282FF5E727F1F502004B17B4 /* CoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E627F1F502004B17B4 /* CoreDataExtension.swift */; };
+		282FF5E827F1F601004B17B4 /* CoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E627F1F502004B17B4 /* CoreDataExtension.swift */; };
+		282FF5EA27F2079A004B17B4 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E927F2079A004B17B4 /* SearchPage.swift */; };
+		282FF5EB27F207C3004B17B4 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5E927F2079A004B17B4 /* SearchPage.swift */; };
+		282FF5ED27F207E6004B17B4 /* PlayerInsertPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5EC27F207E6004B17B4 /* PlayerInsertPage.swift */; };
+		282FF5EE27F207E6004B17B4 /* PlayerInsertPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5EC27F207E6004B17B4 /* PlayerInsertPage.swift */; };
+		282FF5F027F2082A004B17B4 /* AllPlayersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5EF27F2082A004B17B4 /* AllPlayersPage.swift */; };
+		282FF5F127F2082A004B17B4 /* AllPlayersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FF5EF27F2082A004B17B4 /* AllPlayersPage.swift */; };
+		282FF5FA27F20FD4004B17B4 /* lol_e_game_support.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 282FF5F927F20FD4004B17B4 /* lol_e_game_support.sqlite */; };
+		282FF5FB27F20FD4004B17B4 /* lol_e_game_support.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 282FF5F927F20FD4004B17B4 /* lol_e_game_support.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		282FF5A127EAD28A004B17B4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		282FF5A227EAD28A004B17B4 /* lol_e_game_supportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lol_e_game_supportApp.swift; sourceTree = "<group>"; };
+		282FF5A327EAD28A004B17B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		282FF5A427EAD28A004B17B4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		282FF5A527EAD292004B17B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282FF5AA27EAD292004B17B4 /* lol-e-game-support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lol-e-game-support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282FF5B027EAD292004B17B4 /* lol-e-game-support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lol-e-game-support.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282FF5B227EAD293004B17B4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		282FF5DD27EDC786004B17B4 /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		282FF5E027F1717E004B17B4 /* TagsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsPage.swift; sourceTree = "<group>"; };
+		282FF5E627F1F502004B17B4 /* CoreDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExtension.swift; sourceTree = "<group>"; };
+		282FF5E927F2079A004B17B4 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		282FF5EC27F207E6004B17B4 /* PlayerInsertPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInsertPage.swift; sourceTree = "<group>"; };
+		282FF5EF27F2082A004B17B4 /* AllPlayersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlayersPage.swift; sourceTree = "<group>"; };
+		282FF5F927F20FD4004B17B4 /* lol_e_game_support.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = lol_e_game_support.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282FF5A727EAD292004B17B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282FF5AD27EAD292004B17B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282FF59A27EAD289004B17B4 = {
+			isa = PBXGroup;
+			children = (
+				282FF59F27EAD28A004B17B4 /* Shared */,
+				282FF5B127EAD292004B17B4 /* macOS */,
+				282FF5AB27EAD292004B17B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282FF59F27EAD28A004B17B4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				282FF5A227EAD28A004B17B4 /* lol_e_game_supportApp.swift */,
+				282FF5A327EAD28A004B17B4 /* ContentView.swift */,
+				282FF5A427EAD28A004B17B4 /* Persistence.swift */,
+				282FF5F227F20876004B17B4 /* Pages */,
+				282FF5DC27EDC772004B17B4 /* Extensions */,
+				282FF5A027EAD28A004B17B4 /* lol_e_game_support.xcdatamodeld */,
+				282FF5F927F20FD4004B17B4 /* lol_e_game_support.sqlite */,
+				282FF5A527EAD292004B17B4 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		282FF5AB27EAD292004B17B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282FF5AA27EAD292004B17B4 /* lol-e-game-support.app */,
+				282FF5B027EAD292004B17B4 /* lol-e-game-support.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282FF5B127EAD292004B17B4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				282FF5B227EAD293004B17B4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		282FF5DC27EDC772004B17B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				282FF5DD27EDC786004B17B4 /* Combinations.swift */,
+				282FF5E627F1F502004B17B4 /* CoreDataExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		282FF5F227F20876004B17B4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				282FF5E927F2079A004B17B4 /* SearchPage.swift */,
+				282FF5E027F1717E004B17B4 /* TagsPage.swift */,
+				282FF5EC27F207E6004B17B4 /* PlayerInsertPage.swift */,
+				282FF5EF27F2082A004B17B4 /* AllPlayersPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282FF5A927EAD292004B17B4 /* lol-e-game-support (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282FF5BF27EAD293004B17B4 /* Build configuration list for PBXNativeTarget "lol-e-game-support (iOS)" */;
+			buildPhases = (
+				282FF5A627EAD292004B17B4 /* Sources */,
+				282FF5A727EAD292004B17B4 /* Frameworks */,
+				282FF5A827EAD292004B17B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lol-e-game-support (iOS)";
+			productName = "lol-e-game-support (iOS)";
+			productReference = 282FF5AA27EAD292004B17B4 /* lol-e-game-support.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282FF5AF27EAD292004B17B4 /* lol-e-game-support (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282FF5C227EAD293004B17B4 /* Build configuration list for PBXNativeTarget "lol-e-game-support (macOS)" */;
+			buildPhases = (
+				282FF5AC27EAD292004B17B4 /* Sources */,
+				282FF5AD27EAD292004B17B4 /* Frameworks */,
+				282FF5AE27EAD292004B17B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lol-e-game-support (macOS)";
+			productName = "lol-e-game-support (macOS)";
+			productReference = 282FF5B027EAD292004B17B4 /* lol-e-game-support.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282FF59B27EAD289004B17B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					282FF5A927EAD292004B17B4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					282FF5AF27EAD292004B17B4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 282FF59E27EAD289004B17B4 /* Build configuration list for PBXProject "lol-e-game-support" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282FF59A27EAD289004B17B4;
+			productRefGroup = 282FF5AB27EAD292004B17B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282FF5A927EAD292004B17B4 /* lol-e-game-support (iOS) */,
+				282FF5AF27EAD292004B17B4 /* lol-e-game-support (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282FF5A827EAD292004B17B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FF5BB27EAD293004B17B4 /* Assets.xcassets in Resources */,
+				282FF5FA27F20FD4004B17B4 /* lol_e_game_support.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282FF5AE27EAD292004B17B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FF5BC27EAD293004B17B4 /* Assets.xcassets in Resources */,
+				282FF5FB27F20FD4004B17B4 /* lol_e_game_support.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282FF5A627EAD292004B17B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FF5DE27EDC786004B17B4 /* Combinations.swift in Sources */,
+				282FF5B327EAD293004B17B4 /* lol_e_game_support.xcdatamodeld in Sources */,
+				282FF5B927EAD293004B17B4 /* Persistence.swift in Sources */,
+				282FF5ED27F207E6004B17B4 /* PlayerInsertPage.swift in Sources */,
+				282FF5E727F1F502004B17B4 /* CoreDataExtension.swift in Sources */,
+				282FF5B527EAD293004B17B4 /* lol_e_game_supportApp.swift in Sources */,
+				282FF5B727EAD293004B17B4 /* ContentView.swift in Sources */,
+				282FF5EA27F2079A004B17B4 /* SearchPage.swift in Sources */,
+				282FF5E127F1717E004B17B4 /* TagsPage.swift in Sources */,
+				282FF5F027F2082A004B17B4 /* AllPlayersPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282FF5AC27EAD292004B17B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FF5DF27EDCB28004B17B4 /* Combinations.swift in Sources */,
+				282FF5B427EAD293004B17B4 /* lol_e_game_support.xcdatamodeld in Sources */,
+				282FF5BA27EAD293004B17B4 /* Persistence.swift in Sources */,
+				282FF5EE27F207E6004B17B4 /* PlayerInsertPage.swift in Sources */,
+				282FF5E827F1F601004B17B4 /* CoreDataExtension.swift in Sources */,
+				282FF5E227F172DB004B17B4 /* TagsPage.swift in Sources */,
+				282FF5B627EAD293004B17B4 /* lol_e_game_supportApp.swift in Sources */,
+				282FF5EB27F207C3004B17B4 /* SearchPage.swift in Sources */,
+				282FF5B827EAD293004B17B4 /* ContentView.swift in Sources */,
+				282FF5F127F2082A004B17B4 /* AllPlayersPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		282FF5BD27EAD293004B17B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		282FF5BE27EAD293004B17B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		282FF5C027EAD293004B17B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lightmoov.lol-e-game-support";
+				PRODUCT_NAME = "lol-e-game-support";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282FF5C127EAD293004B17B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lightmoov.lol-e-game-support";
+				PRODUCT_NAME = "lol-e-game-support";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282FF5C327EAD293004B17B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lightmoov.lol-e-game-support";
+				PRODUCT_NAME = "lol-e-game-support";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		282FF5C427EAD293004B17B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U25PGE65Q8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lightmoov.lol-e-game-support";
+				PRODUCT_NAME = "lol-e-game-support";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282FF59E27EAD289004B17B4 /* Build configuration list for PBXProject "lol-e-game-support" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282FF5BD27EAD293004B17B4 /* Debug */,
+				282FF5BE27EAD293004B17B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282FF5BF27EAD293004B17B4 /* Build configuration list for PBXNativeTarget "lol-e-game-support (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282FF5C027EAD293004B17B4 /* Debug */,
+				282FF5C127EAD293004B17B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282FF5C227EAD293004B17B4 /* Build configuration list for PBXNativeTarget "lol-e-game-support (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282FF5C327EAD293004B17B4 /* Debug */,
+				282FF5C427EAD293004B17B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		282FF5A027EAD28A004B17B4 /* lol_e_game_support.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				282FF5A127EAD28A004B17B4 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 282FF5A127EAD28A004B17B4 /* Shared.xcdatamodel */;
+			path = lol_e_game_support.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 282FF59B27EAD289004B17B4 /* Project object */;
+}
